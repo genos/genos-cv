@@ -1,0 +1,117 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[$fontsize$, a4paper]{article}
+
+% LAYOUT
+%--------------------------------
+% Margins
+\usepackage{geometry}
+\geometry{$geometry$}
+
+% Do not indent paragraphs
+\setlength\parindent{0cm}
+
+% Uncomment to suppress page numbers
+% \pagenumbering{gobble}
+
+% table setup
+\usepackage{tabu}
+
+% TYPOGRAPHY
+%--------------------------------
+\usepackage{fontspec}
+\usepackage{setspace}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+% converts LaTeX specials (quotes, dashes etc.) to Unicode
+\defaultfontfeatures{Mapping=tex-text}
+$if(mainfont)$
+\setromanfont[Ligatures={Common}, Numbers={OldStyle}]{$mainfont$}
+$endif$
+% Cool ampersand
+\newcommand{\amper}{{\fontspec[Scale=.95]{$mainfont$}\selectfont\itshape\&}}
+\doublespacing
+
+% MARGIN NOTES
+%--------------------------------
+\usepackage{marginnote}
+\newcommand{\note}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+%--------------------------------
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
+\sectionfont{\rmfamily\mdseries}
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize}
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize}
+
+% PDF SETUP
+%--------------------------------
+\usepackage{hyperref}
+\hypersetup
+{
+  pdfauthor={$name$},
+  pdfsubject={$name$'s CV},
+  pdftitle={$name$'s CV},
+  colorlinks, breaklinks, xetex, bookmarks,
+  filecolor=black,
+  urlcolor=[rgb]{0.117,0.682,0.858},
+  linkcolor=[rgb]{0.117,0.682,0.858},
+  linkcolor=[rgb]{0.117,0.682,0.858},
+  citecolor=[rgb]{0.117,0.682,0.858}
+}
+
+% DOCUMENT
+%--------------------------------
+\begin{document}
+
+{\huge \textsc{$name$}}
+
+\vspace{10pt}
+
+\section*{Summary}
+$for(summary)$$summary$$sep$; $endfor$.
+
+\subsection*{Areas of Expertise}
+$if(skills)$
+\begin{itemize}
+  $for(skills)$
+    \item $skills$
+  $endfor$
+\end{itemize}
+$endif$
+
+$if(education)$
+\section*{Education}
+\noindent
+$for(education)$
+\note{$education.year$}\textsc{$if(education.degree)$$education.degree$ in $endif$$education.subject$}, \emph{$education.institute$}$if(education.city)$, $education.city$$endif$$if(education.description)$\\$education.description$$endif$\\[.2cm]
+$endfor$
+$endif$
+
+\section*{Relevant Experience}
+\noindent
+$for(experience)$
+\note{$experience.years$}\emph{$experience.job$}, \textsc{$experience.employer$}, $experience.city$
+$for(experience.description)$
+\begin{itemize}
+  \item $experience.description$
+\end{itemize}
+$endfor$
+$endfor$
+
+$if(publications)$
+\section*{Publications}
+\noindent
+\begin{itemize}
+$for(publications)$
+\item $publications.authors$. \emph{$publications.title$}. $publications.where$, $publications.info$.
+$endfor$
+\end{itemize}
+$endif$
+
+\end{document}
