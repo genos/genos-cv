@@ -85,14 +85,6 @@ $if(skills)$
 \end{itemize}
 $endif$
 
-$if(education)$
-\section*{Education}
-\noindent
-$for(education)$
-\note{$education.year$}\textsc{$if(education.degree)$$education.degree$ in $endif$$education.subject$}, \emph{$education.institute$}$if(education.city)$, $education.city$$endif$$if(education.description)$\\$education.description$$endif$\\[.2cm]
-$endfor$
-$endif$
-
 \section*{Relevant Experience}
 \noindent
 $for(experience)$
@@ -103,6 +95,14 @@ $for(experience.description)$
 \end{itemize}
 $endfor$
 $endfor$
+
+$if(education)$
+\section*{Education}
+\noindent
+$for(education)$
+\note{$education.year$}\textsc{$if(education.degree)$$education.degree$ in $endif$$education.subject$}, \emph{$education.institute$}$if(education.city)$, $education.city$$endif$$if(education.description)$\\$education.description$$endif$\\[.2cm]
+$endfor$
+$endif$
 
 $if(publications)$
 \section*{Publications}

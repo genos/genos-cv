@@ -12,9 +12,8 @@ summary:
 
 skills:
   - Data Science, Statistical Data Mining and Modeling, Software Development
-  - Scala, Python (including ``data stack,'' e.g. NumPy and Pandas), C, C++
-    (especially modern C++11, etc.), R, Sage; Conversant in Clojure, Common
-    Lisp, Haskell, JavaScript, Java, Scheme, SQL
+  - Programming in Scala, Python (including ``data stack,'' e.g. NumPy and
+    Pandas), C, C++ (especially modern C++11, etc.), R, SQL, Haskell
   - Elliptic Curve Public Key Cryptography, Computational and Algorithmic
     Abstract Algebra and Group Theory
 
@@ -24,9 +23,16 @@ experience:
     employer: Quantifind, Inc.
     city: Washington, DC
     description:
-      - Statistics and machine learning to help companies uncover signals
-        hidden noisy data
-      - Sifting through data with Scala, Python, R, etc
+      - Conducting literature review and original research to answer open-ended
+        questions prompted by product and stakeholder requests
+      - Prototyping novel machine leraning algorithms and models in Python and
+        R
+      - Developing and integrating models and algorithms into a monolithic
+        multi-developer Scala code base, conducting unit and integration
+        testing, issuing and responding to code reviews, following other
+        software engineering best practices, deploying at scale
+      - Incorporating new data sources into our product stack, setting up and
+        administering PostgreSQL databases
   - years: 2012--2016
     job: Applied Research Mathematician
     employer: Department of Defense
@@ -43,21 +49,21 @@ experience:
       - Examined, extracted, cleaned, explored, visualized, and modeled data
         from multiple, disparate sources of varying consistency and quality
         using a variety of statistical techniques and analytical tools
-      - Engineered a simple web-based platform for briefing team's work to
-        senior leadership and interested customers
+      # - Engineered a simple web-based platform for briefing team's work to
+      #   senior leadership and interested customers
       - Optimized development cycle of plugins for a large internal software
         tool
-      - Scripted data flows, analysis, and processing, leveraging high
-        performance computing platforms in support of mission
-      - Conducted mathematical research and computer experiments exploring
-        innovative approaches to long-term research goals in public key
-        cryptography
+      # - Scripted data flows, analysis, and processing, leveraging high
+      #   performance computing platforms in support of mission
+      # - Conducted mathematical research and computer experiments exploring
+      #   innovative approaches to long-term research goals in public key
+      #   cryptography
       - Selected to be a Teaching Assistant for internal Statical Data Analysis
         and Data Mining course and was the only TA explicitly praised in
         student evaluation forms
-      - Collaborated with other mathematicians, software developers, technical
-        experts, and non-technical customers on a variety of time-sensitive
-        critical projects
+      # - Collaborated with other mathematicians, software developers, technical
+      #   experts, and non-technical customers on a variety of time-sensitive
+      #   critical projects
       - Trained in data mining, machine learning, cryptanalysis, computer
         security, information assurance, computer network exploitation,
         software reverse engineering
@@ -65,141 +71,141 @@ experience:
         advance the state of the art in language-independent text
         summarization, anomalous object detection in large data sets, and
         public key cryptography
-  - years: 2012
-    job: Analytical Consultant
-    employer: Booz Allen Hamilton
-    city: McLean, VA
-    description:
-      - Studied application of Natural Language Processing to in-house phishing
-        email training
-      - Conducted research and analysis of personnel hierarchy with Python,
-        GraphViz, Excel, and Visual Basic
-      - Extended a database application in Microsoft Access
-  - years: 2010--2012
-    job: Graduate Assistant
-    employer: UNCC Department of Mathematics and Statistics
-    city:  Charlotte, NC
-    description:
-      - Nominated for 2010-2011 Outstanding Graduate Teaching Assistant Award
-      - Planned and presented professional development to other graduate
-        assistants as a Graduate Teaching Fellow
-      - Performed full instructor responsibilities, wrote and presented
-        lectures, conducted office hours, created and graded tests and homework
-        sets, and organized online work through the departments WebWork system
-        for Calculus I, Calculus II, and Calculus III
-  - years: 2009--2010
-    job: Grader/Tutor
-    employer: UNCC Department of Mathematics and Statistics
-    city: Charlotte, NC
-    description:
-      - Graded homework sets and tests for Advanced Applied Mathematics,
-        Differential Equations, and Linear Algebra courses
-      - Provided tutoring and instruction in the Math Learning Center
-  - years: 2008--2009
-    job: Family Room Specialist
-    employer: The Apple Store, SouthPark
-    city: Charlotte, NC
-    description:
-      - Recommended various products, services, and training
-      - Provided individual training on various Apple products
-      - Performed triage and repairs on portable Apple Hardware
-      - Translated difficult computing concepts into meaningful and clear terms
-        for customers
-      - Discussed customers desires and needs to decide proper computing
-        solution
-      - Carried out transactions at the Point of Sale and on mobile devices
-      - Cleaned up and restocked items on the sales floor
-      - Constantly learned about computers and technology industry through
-        structured personal development
-  - years: 2008--2009
-    job: Mathematics Tutor
-    employer: Sylvan Learning Center
-    city: Mooresville, NC
-    description:
-      - Provided homework help, general instruction, and guided learning for
-        High School students in their mathematics classes spanning Algebra 1,
-        Geometry, and Algebra 2
-      - Conferred with colleagues about student performance and progress
-      - Tracked student progress and achievement
-      - Recommended areas of concentration, study tips and strategies, and best
-        practices
-  - years: 2007--2008
-    job: High School Mathematics Teacher
-    employer: Buckeye Union High School
-    city: Buckeye, AZ
-    description:
-      - Selected as a member of Teach For America to teach Freshmen and
-        Sophomores in Intro to Algebra and Basic Math Lab
-      - Instructed students
-      - Created lesson plans
-      - Graded homework, classwork, quizzes, and tests
-      - Maintained grade records and tracked student growth
-      - Provided extra help for students outside of class time
-      - Troubleshot and managed student accounts on A+LS computer-based
-        learning system for Basic Math Lab
-      - Conferred with Program Director and Arizona State University Mentor
-        Teacher about successes and areas for growth in my classroom,
-        strategies for increasing student engagement and achievement, and
-        professional development
-  - years: Summer 2007
-    job: High School Mathematics Teacher
-    employer: Atlanta Public Schools
-    city: Atlanta, GA
-    description:
-      - Trained to be a Public School Teacher at Teach For Americas 2007 Summer
-        Institute at Georgia Institute of Technology
-      - Team-taught a Geometry class
-      - Created lesson plans
-      - Graded homework, classwork, and exams
-      - Tracked student achievement
-      - Attended seminars on effective instruction, classroom management,
-        developing a class culture, incorporating literacy into instruction
-      - Conferred with Corps Member Advisor several times per week regarding
-        both student and personal performance
-      - Observed other Corps Members and teachers
-  - years: 2006--2007
-    job: Grader/TA
-    employer: Bates College Departments of Mathematics and Philosophy
-    city: Lewiston, ME
-    description:
-      - Graded homework and exams, maintained homework records, developed
-        answer keys, and discussed student progress and met with student
-        individually for students in Multivariable Calculus and Introduction to
-        Logic.
-  - years: May 2005
-    job: Teaching Assistant
-    employer: Bates College Mathematics Department
-    city: Lewiston, ME
-    description:
-      - Selected as a sophomore to assist three professors in Introduction to
-        Abstraction, a Mathematics course mandatory for all potential math
-        majors
-      - Instructed students in logic, proof styles, elementary number theory,
-        abstract algebra, and real analysis, and typesetting in \LaTeX
-      - Provided help for students during group work
-      - Lectured a class
-      - Scheduled, prepared, and administered review sessions before each exam
-      - Graded homework
-  - years: 2004--2006
-    job: Mathematics Tutor
-    employer: Bates College Mathematics and Statistics Workshop
-    city: Lewiston, ME
-    description:
-      - Provided Tutorial Support to Calculus I and II students once a week
-        during the Workshops school night Calculus Help Sessions
-      - Enlisted as a private tutor for two students on an individual basis in
-        Calculus I and II, respectively
-  - years: Summer 2004 & 2005
-    job: Teacher's Aide
-    employer: Easter Seals of Southeastern Pennsylvania
-    city: Levittown, PA
-    description:
-      - Assisted in teaching a class for students with multiple disabilities,
-        in such areas as Occupational and Physical Therapy, interpersonal
-        communication, and appropriate behavior
-      - Performed client services such as feeding and changing
-      - Rode the school bus several afternoons a week to ensure student health
-        and safety on ride home
+  # - years: 2012
+  #   job: Analytical Consultant
+  #   employer: Booz Allen Hamilton
+  #   city: McLean, VA
+  #   description:
+  #     - Studied application of Natural Language Processing to in-house phishing
+  #       email training
+  #     - Conducted research and analysis of personnel hierarchy with Python,
+  #       GraphViz, Excel, and Visual Basic
+  #     - Extended a database application in Microsoft Access
+  # - years: 2010--2012
+  #   job: Graduate Assistant
+  #   employer: UNCC Department of Mathematics and Statistics
+  #   city:  Charlotte, NC
+  #   description:
+  #     - Nominated for 2010-2011 Outstanding Graduate Teaching Assistant Award
+  #     - Planned and presented professional development to other graduate
+  #       assistants as a Graduate Teaching Fellow
+  #     - Performed full instructor responsibilities, wrote and presented
+  #       lectures, conducted office hours, created and graded tests and homework
+  #       sets, and organized online work through the departments WebWork system
+  #       for Calculus I, Calculus II, and Calculus III
+  # - years: 2009--2010
+  #   job: Grader/Tutor
+  #   employer: UNCC Department of Mathematics and Statistics
+  #   city: Charlotte, NC
+  #   description:
+  #     - Graded homework sets and tests for Advanced Applied Mathematics,
+  #       Differential Equations, and Linear Algebra courses
+  #     - Provided tutoring and instruction in the Math Learning Center
+  # - years: 2008--2009
+  #   job: Family Room Specialist
+  #   employer: The Apple Store, SouthPark
+  #   city: Charlotte, NC
+  #   description:
+  #     - Recommended various products, services, and training
+  #     - Provided individual training on various Apple products
+  #     - Performed triage and repairs on portable Apple Hardware
+  #     - Translated difficult computing concepts into meaningful and clear terms
+  #       for customers
+  #     - Discussed customers desires and needs to decide proper computing
+  #       solution
+  #     - Carried out transactions at the Point of Sale and on mobile devices
+  #     - Cleaned up and restocked items on the sales floor
+  #     - Constantly learned about computers and technology industry through
+  #       structured personal development
+  # - years: 2008--2009
+  #   job: Mathematics Tutor
+  #   employer: Sylvan Learning Center
+  #   city: Mooresville, NC
+  #   description:
+  #     - Provided homework help, general instruction, and guided learning for
+  #       High School students in their mathematics classes spanning Algebra 1,
+  #       Geometry, and Algebra 2
+  #     - Conferred with colleagues about student performance and progress
+  #     - Tracked student progress and achievement
+  #     - Recommended areas of concentration, study tips and strategies, and best
+  #       practices
+  # - years: 2007--2008
+  #   job: High School Mathematics Teacher
+  #   employer: Buckeye Union High School
+  #   city: Buckeye, AZ
+  #   description:
+  #     - Selected as a member of Teach For America to teach Freshmen and
+  #       Sophomores in Intro to Algebra and Basic Math Lab
+  #     - Instructed students
+  #     - Created lesson plans
+  #     - Graded homework, classwork, quizzes, and tests
+  #     - Maintained grade records and tracked student growth
+  #     - Provided extra help for students outside of class time
+  #     - Troubleshot and managed student accounts on A+LS computer-based
+  #       learning system for Basic Math Lab
+  #     - Conferred with Program Director and Arizona State University Mentor
+  #       Teacher about successes and areas for growth in my classroom,
+  #       strategies for increasing student engagement and achievement, and
+  #       professional development
+  # - years: Summer 2007
+  #   job: High School Mathematics Teacher
+  #   employer: Atlanta Public Schools
+  #   city: Atlanta, GA
+  #   description:
+  #     - Trained to be a Public School Teacher at Teach For Americas 2007 Summer
+  #       Institute at Georgia Institute of Technology
+  #     - Team-taught a Geometry class
+  #     - Created lesson plans
+  #     - Graded homework, classwork, and exams
+  #     - Tracked student achievement
+  #     - Attended seminars on effective instruction, classroom management,
+  #       developing a class culture, incorporating literacy into instruction
+  #     - Conferred with Corps Member Advisor several times per week regarding
+  #       both student and personal performance
+  #     - Observed other Corps Members and teachers
+  # - years: 2006--2007
+  #   job: Grader/TA
+  #   employer: Bates College Departments of Mathematics and Philosophy
+  #   city: Lewiston, ME
+  #   description:
+  #     - Graded homework and exams, maintained homework records, developed
+  #       answer keys, and discussed student progress and met with student
+  #       individually for students in Multivariable Calculus and Introduction to
+  #       Logic.
+  # - years: May 2005
+  #   job: Teaching Assistant
+  #   employer: Bates College Mathematics Department
+  #   city: Lewiston, ME
+  #   description:
+  #     - Selected as a sophomore to assist three professors in Introduction to
+  #       Abstraction, a Mathematics course mandatory for all potential math
+  #       majors
+  #     - Instructed students in logic, proof styles, elementary number theory,
+  #       abstract algebra, and real analysis, and typesetting in \LaTeX
+  #     - Provided help for students during group work
+  #     - Lectured a class
+  #     - Scheduled, prepared, and administered review sessions before each exam
+  #     - Graded homework
+  # - years: 2004--2006
+  #   job: Mathematics Tutor
+  #   employer: Bates College Mathematics and Statistics Workshop
+  #   city: Lewiston, ME
+  #   description:
+  #     - Provided Tutorial Support to Calculus I and II students once a week
+  #       during the Workshops school night Calculus Help Sessions
+  #     - Enlisted as a private tutor for two students on an individual basis in
+  #       Calculus I and II, respectively
+  # - years: Summer 2004 & 2005
+  #   job: Teacher's Aide
+  #   employer: Easter Seals of Southeastern Pennsylvania
+  #   city: Levittown, PA
+  #   description:
+  #     - Assisted in teaching a class for students with multiple disabilities,
+  #       in such areas as Occupational and Physical Therapy, interpersonal
+  #       communication, and appropriate behavior
+  #     - Performed client services such as feeding and changing
+  #     - Rode the school bus several afternoons a week to ensure student health
+  #       and safety on ride home
 
 education:
   - year: 2009--2013
