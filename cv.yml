@@ -25,7 +25,7 @@ experience:
     description:
       - Conducting literature review and original research to answer open-ended
         questions prompted by product and stakeholder requests
-      - Prototyping novel machine leraning algorithms and models in Python and
+      - Prototyping novel machine learning algorithms and models in Python and
         R
       - Developing and integrating models and algorithms into a monolithic
         multi-developer Scala code base, conducting unit and integration
