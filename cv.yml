@@ -6,33 +6,38 @@ name: Graham Enos
 summary:
   - More than 10 years of mathematical research, computer programming, and
     education experience
-  - Extensive experience in data science, modeling, visualization and analysis
+  - Extensive experience in data science, modeling, analysis and visualization
   - Previously held Top Secret/SCI clearance; passed special background
     investigation, full scope polygraph
 
 skills:
   - Data Science, Statistical Data Mining and Modeling, Software Development
-  - Programming in Scala, Python (including ``data stack,'' e.g. NumPy and
-    Pandas), C, C++ (especially modern C++11, etc.), R, SQL, Haskell
+  - Programming in Python (especially the pydata stack), Scala, R, SQL, C, C++,
+    Haskell, Rust
   - Elliptic Curve Public Key Cryptography, Computational and Algorithmic
     Abstract Algebra and Group Theory
 
 experience:
-  - years: 2016--Present
+  - years: 2020--present
+    job: Senior Researcher, Quantum Machine Learning
+    employer: Rigetti Computing
+    city: Washington, DC
+    description:
+      - Researching quantum computing for machine learning
+  - years: 2016--2020
     job: Senior Data Scientist
     employer: Quantifind, Inc.
     city: Washington, DC
     description:
-      - Conducting literature review and original research to answer open-ended
+      - Conducted literature review and original research to answer open-ended
         questions prompted by product and stakeholder requests
-      - Prototyping novel machine learning algorithms and models in Python and
-        R
-      - Developing and integrating models and algorithms into a monolithic
-        multi-developer Scala code base, conducting unit and integration
-        testing, issuing and responding to code reviews, following other
-        software engineering best practices, deploying at scale
-      - Incorporating new data sources into our product stack, setting up and
-        administering PostgreSQL databases
+      - Prototyped novel machine learning algorithms and models in Python and R
+      - Developed and integrated models and algorithms into a monolithic
+        multi-developer Scala code base, conducted unit and integration
+        testing, issued and responded to code reviews, followed other software
+        engineering best practices, deployed at scale
+      - Incorporated new data sources into our product stack, set up and
+        administered PostgreSQL databases
   - years: 2012--2016
     job: Applied Research Mathematician
     employer: Department of Defense
@@ -43,16 +48,16 @@ experience:
         developing an internal tool that drastically shortened development
         feedback loop for a large scale, multi-developer, mission-critical high
         performance computing project
-      - Researched state of the art in automatic language-independent text
-        summarization, then developed, documented, and tested a new text
-        summarization algorithm
+      # - Researched state of the art in automatic language-independent text
+      #   summarization, then developed, documented, and tested a new text
+      #   summarization algorithm
       - Examined, extracted, cleaned, explored, visualized, and modeled data
         from multiple, disparate sources of varying consistency and quality
         using a variety of statistical techniques and analytical tools
       # - Engineered a simple web-based platform for briefing team's work to
       #   senior leadership and interested customers
-      - Optimized development cycle of plugins for a large internal software
-        tool
+      # - Optimized development cycle of plugins for a large internal software
+      #   tool
       # - Scripted data flows, analysis, and processing, leveraging high
       #   performance computing platforms in support of mission
       # - Conducted mathematical research and computer experiments exploring
