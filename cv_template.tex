@@ -29,8 +29,6 @@
 $if(mainfont)$
 \setromanfont[Ligatures={Common}, Numbers={OldStyle}]{$mainfont$}
 $endif$
-% Cool ampersand
-\newcommand{\amper}{{\fontspec[Scale=.95]{$mainfont$}\selectfont\itshape\&}}
 \doublespacing
 
 % MARGIN NOTES
@@ -69,15 +67,15 @@ $endif$
 %--------------------------------
 \begin{document}
 
-{\huge \textsc{$name$}}\\
+{\Huge \textsc{$name$}}\\
 
 \vspace{10pt}
 
 \section*{Summary}
 $for(summary)$$summary$$sep$; $endfor$.
 
-\subsection*{Areas of Expertise}
 $if(skills)$
+\subsection*{Areas of Expertise}
 \begin{itemize}
   $for(skills)$
     \item $skills$
@@ -88,30 +86,30 @@ $endif$
 \section*{Relevant Experience}
 \noindent
 $for(experience)$
-\note{$experience.years$}\emph{$experience.job$}, \textsc{$experience.employer$}, $experience.city$
-$for(experience.description)$
-\begin{itemize}
-  \item $experience.description$
-\end{itemize}
-$endfor$
+  \note{$experience.years$}\emph{$experience.job$}, \textsc{$experience.employer$}, $experience.city$
+  $for(experience.description)$
+    \begin{itemize}
+      \item $experience.description$
+    \end{itemize}
+  $endfor$
 $endfor$
 
 $if(education)$
-\section*{Education}
-\noindent
-$for(education)$
-\note{$education.year$}\textsc{$if(education.degree)$$education.degree$ in $endif$$education.subject$}, \emph{$education.institute$}$if(education.city)$, $education.city$$endif$$if(education.description)$\\$education.description$$endif$\\[.2cm]
-$endfor$
+  \section*{Education}
+  \noindent
+  $for(education)$
+    \note{$education.year$}\textsc{$if(education.degree)$$education.degree$ in $endif$$education.subject$}, \emph{$education.institute$}$if(education.city)$, $education.city$$endif$$if(education.description)$\\$education.description$$endif$\\[.2cm]
+  $endfor$
 $endif$
 
 $if(publications)$
-\section*{Publications}
-\noindent
-\begin{itemize}
-$for(publications)$
-\item $publications.authors$. \emph{$publications.title$}. $publications.where$, $publications.info$.
-$endfor$
-\end{itemize}
+  \section*{Publications}
+  \noindent
+  \begin{itemize}
+  $for(publications)$
+    \item $publications.authors$. \emph{$publications.title$}. $publications.where$, $publications.info$.
+  $endfor$
+  \end{itemize}
 $endif$
 
 \end{document}

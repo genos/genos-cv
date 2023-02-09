@@ -4,26 +4,32 @@ name: Graham Enos
 
 # Sections
 summary:
-  - More than 10 years of mathematical research, computer programming, and
+  - More than 15 years of mathematical research, software engineering, and
     education experience
-  - Extensive experience in data science, modeling, analysis and visualization
+  - Extensive experience in machine learning, data science, analysis and visualization
   - Previously held Top Secret/SCI clearance; passed special background
     investigation, full scope polygraph
 
-skills:
-  - Data Science, Statistical Data Mining and Modeling, Software Development
-  - Programming in Python (especially the pydata stack), Scala, R, SQL, C, C++,
-    Haskell, Rust
-  - Elliptic Curve Public Key Cryptography, Computational and Algorithmic
-    Abstract Algebra and Group Theory
+# skills:
+#   - Machine Learning, Data Science, Statistical Modeling, Software Development
+#   - Programming in Python (especially the pydata stack), Rust, R, Common Lisp,
+#     Haskell, C, C++, Scala
+#   - Elliptic Curve Public Key Cryptography, Computational and Algorithmic
+#     Abstract Algebra and Group Theory
 
 experience:
   - years: 2020--present
-    job: Senior Researcher, Quantum Machine Learning
+    job: Lead Research Scientist, Quantum Advantage
     employer: Rigetti Computing
     city: Washington, DC
     description:
-      - Researching quantum computing for machine learning
+      - Principal investigator for multiple projects using near-term quantum
+        processing units for machine learning tasks
+      - Developing software in Python, Rust, and Common Lisp as part of a team
+        using modern software engineering best practices
+      - Published findings in 3rd Workshop on Artificial Intelligence for
+        Humanitarian Assistance and Disaster Response at NeurIPS 2021 and
+        on company blog
   - years: 2016--2020
     job: Senior Data Scientist
     employer: Quantifind, Inc.
@@ -34,7 +40,7 @@ experience:
       - Prototyped novel machine learning algorithms and models in Python and R
       - Developed and integrated models and algorithms into a monolithic
         multi-developer Scala code base, conducted unit and integration
-        testing, issued and responded to code reviews, followed other software
+        testing, issued and responded to code reviews, adhered to software
         engineering best practices, deployed at scale
       - Incorporated new data sources into our product stack, set up and
         administered PostgreSQL databases
@@ -48,9 +54,9 @@ experience:
         developing an internal tool that drastically shortened development
         feedback loop for a large scale, multi-developer, mission-critical high
         performance computing project
-      # - Researched state of the art in automatic language-independent text
-      #   summarization, then developed, documented, and tested a new text
-      #   summarization algorithm
+      - Researched state of the art in automatic language-independent text
+        summarization, then developed, documented, and tested a new text
+        summarization algorithm
       - Examined, extracted, cleaned, explored, visualized, and modeled data
         from multiple, disparate sources of varying consistency and quality
         using a variety of statistical techniques and analytical tools
@@ -63,9 +69,9 @@ experience:
       # - Conducted mathematical research and computer experiments exploring
       #   innovative approaches to long-term research goals in public key
       #   cryptography
-      - Selected to be a Teaching Assistant for internal Statical Data Analysis
-        and Data Mining course and was the only TA explicitly praised in
-        student evaluation forms
+      # - Selected to be a Teaching Assistant for internal Statical Data Analysis
+      #   and Data Mining course and was the only TA explicitly praised in
+      #   student evaluation forms
       # - Collaborated with other mathematicians, software developers, technical
       #   experts, and non-technical customers on a variety of time-sensitive
       #   critical projects
@@ -76,16 +82,16 @@ experience:
         advance the state of the art in language-independent text
         summarization, anomalous object detection in large data sets, and
         public key cryptography
-  # - years: 2012
-  #   job: Analytical Consultant
-  #   employer: Booz Allen Hamilton
-  #   city: McLean, VA
-  #   description:
-  #     - Studied application of Natural Language Processing to in-house phishing
-  #       email training
-  #     - Conducted research and analysis of personnel hierarchy with Python,
-  #       GraphViz, Excel, and Visual Basic
-  #     - Extended a database application in Microsoft Access
+  - years: 2012
+    job: Analytical Consultant
+    employer: Booz Allen Hamilton
+    city: McLean, VA
+    description:
+      - Studied application of Natural Language Processing to in-house phishing
+        email training
+      - Conducted research and analysis of personnel hierarchy with Python,
+        GraphViz, Excel, and Visual Basic
+      # - Extended a database application in Microsoft Access
   # - years: 2010--2012
   #   job: Graduate Assistant
   #   employer: UNCC Department of Mathematics and Statistics
@@ -231,19 +237,23 @@ education:
       Xi
 
 publications:
-  - authors: Graham Enos
-    title: Complete and unified group laws are not enough for elliptic curve
-      cryptography
-    where: Cryptology ePrint Archive
-    info: Report 2013/015, 2013
+  - authors: Graham Enos, et. al.
+    title: Synthetic weather radar using hybrid quantum-classical machine learning
+    where: NeurIPS 2021 AI+HADR Workshop
+    info: www.hadr.ai/previous-years/2021/accepted-papers-2021
   - authors: Graham Enos and Yuliang Zheng
     title: An id-based signcryption scheme with compartmented secret sharing
       for unsigncryption
     where: Information Processing Letters
     info: 115(2):128 – 133, 2015
+  - authors: Graham Enos
+    title: Complete and unified group laws are not enough for elliptic curve
+      cryptography
+    where: Cryptology ePrint Archive
+    info: Report 2013/015, 2013
 
 # Settings
-mainfont: Hoefler Text
+mainfont: Equity A
 fontsize: 10pt
-geometry: a4paper, left=3.5cm, right=3.5cm, top=4.0cm, bottom=2.0cm
+geometry: a4paper, left=3.5cm, right=3.5cm, top=2.25cm, bottom=2.0cm
 ---
