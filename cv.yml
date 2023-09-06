@@ -26,7 +26,9 @@ experience:
       - Principal investigator for multiple projects using near-term quantum
         processing units for machine learning tasks
       - Developing software in Python, Rust, and Common Lisp as part of a team
-        using modern software engineering best practices
+        using modern software engineering best practices for a variety of
+        tasks, including machine learning pipelines, compilers, and synthetic
+        data generation
       - Published findings in 3rd Workshop on Artificial Intelligence for
         Humanitarian Assistance and Disaster Response at NeurIPS 2021 and
         on company blog
