@@ -11,7 +11,7 @@ A boilerplate to ease the pain of building and maintaining a CV or résumé usin
 
 ## Available settings
 
-- **`mainfont`**: Hoefler Text is the default, but every font installed on your system should work out of the box (thanks, XeTeX!)
+- **`mainfont`**: Every font installed on your system should work out of the box (thanks, XeTeX!)
 - **`fontsize`**: Possible values here are 10pt, 11pt and 12pt.
 - **`geometry`**: A string that sets the margins through `geometry`. Read [this](https://www.sharelatex.com/learn/Page_size_and_margins) to learn how this package works.
 
