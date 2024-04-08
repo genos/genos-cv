@@ -18,7 +18,14 @@ summary:
 #     Abstract Algebra and Group Theory
 
 experience:
-  - years: 2020--present
+  - years: 2023--present
+    job: Vice President, Quantum Solutions
+    employer: Strangeworks
+    city: Washington, DC
+    description:
+      - Provided cientific software development, data analysis, and subject
+        matter expertise on a number of client engagements
+  - years: 2020--2023
     job: Lead Research Scientist, Quantum Advantage
     employer: Rigetti Computing
     city: Washington, DC
@@ -44,8 +51,8 @@ experience:
         multi-developer Scala code base, conducted unit and integration
         testing, issued and responded to code reviews, adhered to software
         engineering best practices, deployed at scale
-      - Incorporated new data sources into our product stack, set up and
-        administered PostgreSQL databases
+      - Incorporated new data sources into our product stack, administered
+        PostgreSQL databases
   - years: 2012--2016
     job: Applied Research Mathematician
     employer: Department of Defense
@@ -84,15 +91,15 @@ experience:
         advance the state of the art in language-independent text
         summarization, anomalous object detection in large data sets, and
         public key cryptography
-  - years: 2012
-    job: Analytical Consultant
-    employer: Booz Allen Hamilton
-    city: McLean, VA
-    description:
-      - Studied application of Natural Language Processing to in-house phishing
-        email training
-      - Conducted research and analysis of personnel hierarchy with Python,
-        GraphViz, Excel, and Visual Basic
+  # - years: 2012
+  #   job: Analytical Consultant
+  #   employer: Booz Allen Hamilton
+  #   city: McLean, VA
+  #   description:
+  #     - Studied application of Natural Language Processing to in-house phishing
+  #       email training
+  #     - Conducted research and analysis of personnel hierarchy with Python,
+  #       GraphViz, Excel, and Visual Basic
       # - Extended a database application in Microsoft Access
   # - years: 2010--2012
   #   job: Graduate Assistant
