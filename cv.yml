@@ -19,12 +19,13 @@ summary:
 
 experience:
   - years: 2023--present
-    job: Vice President, Quantum Solutions
+    job: Vice President of Quantum Solutions
     employer: Strangeworks
     city: Washington, DC
     description:
-      - Provided cientific software development, data analysis, and subject
-        matter expertise on a number of client engagements
+      - Combining quantum computing and artificial intelligence subject matter
+        expertise with scientific software development and data analysis on a
+        number of client engagements
   - years: 2020--2023
     job: Lead Research Scientist, Quantum Advantage
     employer: Rigetti Computing
