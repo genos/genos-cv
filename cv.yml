@@ -6,8 +6,8 @@ name: Graham Enos
 summary:
   - More than 15 years of mathematical research, software engineering, and
     education experience
-  - Extensive experience in machine learning, data science, analysis and visualization
-  - Previously held Top Secret/SCI clearance; passed special background
+  - extensive experience in machine learning, data science, analysis and visualization
+  - previously held Top Secret/SCI clearance; passed special background
     investigation, full scope polygraph
 
 # skills:
@@ -23,9 +23,9 @@ experience:
     employer: Strangeworks
     city: Washington, DC
     description:
-      - Combining quantum computing and artificial intelligence subject matter
-        expertise with scientific software development and data analysis on a
-        number of client engagements
+      - Combining artificial intelligence and quantum computing subject matter
+        expertise with software development, project management, and data
+        analysis on a number of client engagements
   - years: 2020--2023
     job: Lead Research Scientist, Quantum Advantage
     employer: Rigetti Computing
@@ -33,13 +33,13 @@ experience:
     description:
       - Principal investigator for multiple projects using near-term quantum
         processing units for machine learning tasks
-      - Developing software in Python, Rust, and Common Lisp as part of a team
+      - Developed software in Python, Rust, and Common Lisp as part of a team
         using modern software engineering best practices for a variety of
         tasks, including machine learning pipelines, compilers, and synthetic
         data generation
       - Published findings in 3rd Workshop on Artificial Intelligence for
-        Humanitarian Assistance and Disaster Response at NeurIPS 2021 and
-        on company blog
+        Humanitarian Assistance and Disaster Response at NeurIPS 2021, on the
+        arXiv, and on company blog
   - years: 2016--2020
     job: Senior Data Scientist
     employer: Quantifind, Inc.
@@ -47,11 +47,11 @@ experience:
     description:
       - Conducted literature review and original research to answer open-ended
         questions prompted by product and stakeholder requests
-      - Prototyped novel machine learning algorithms and models in Python and R
-      - Developed and integrated models and algorithms into a monolithic
-        multi-developer Scala code base, conducted unit and integration
-        testing, issued and responded to code reviews, adhered to software
-        engineering best practices, deployed at scale
+      - Developed novel machine learning models in Python and R, then
+        integrated them into a monolithic multi-developer Scala code base,
+        conducted unit and integration testing, issued and responded to code
+        reviews, adhered to software engineering best practices, deployed at
+        scale
       - Incorporated new data sources into our product stack, administered
         PostgreSQL databases
   - years: 2012--2016
@@ -238,7 +238,7 @@ education:
       Elliptic Curve Cryptography" while working full time as an Applied
       Research Mathematician at the U.S. Department of Defense; Dr. Yuliang
       Zheng & Dr. Gabor Hetyei, advisors
-  - year: 2007
+  - year: 2003--2007
     degree: B.A.
     subject: Mathematics & Philosophy
     institute: Bates College
@@ -247,6 +247,10 @@ education:
       Xi
 
 publications:
+  - authors: Graham Enos, Matthew Reagor, and Eric Hulburd
+    title: Evaluating quantum generative models via imbalanced data classification benchmarks
+    where: arXiv
+    info: https://arxiv.org/abs/2308.10847
   - authors: Graham Enos, et. al.
     title: Synthetic weather radar using hybrid quantum-classical machine learning
     where: NeurIPS 2021 AI+HADR Workshop
@@ -265,5 +269,5 @@ publications:
 # Settings
 mainfont: Equity A
 fontsize: 10pt
-geometry: a4paper, left=3.5cm, right=3.5cm, top=2.25cm, bottom=2.0cm
+geometry: a4paper, left=3.5cm, right=3.5cm, top=2.0cm, bottom=1.5cm
 ---
